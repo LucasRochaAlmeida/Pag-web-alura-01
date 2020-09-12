@@ -1,14 +1,15 @@
+body{
+    background: darkslategray;
+}
 p{
     text-align: center;
 }
 .titulo-principal{
     padding-left: 30px;
+    color: linen;
 }
 .titulo-secundario{
     text-align: center;
-}
-strong em{
-    color: red;
 }
 p#missao{
     font-size: 20px;
@@ -20,19 +21,20 @@ p#missao{
     font-style: italic;
 }
 .beneficios{
-    background:#ffffff;
+    background: dimgray;
     padding: 20px;
 
 }
 .principal{
-    background: #cccccc;
+    background: lightslategrey;
     padding: 30px;
 }
 ul{
     display: inline-block;
     vertical-align: top;
     width: 20%;
-    margin-right: 15%;
+    margin-right: 5%;
+    margin-left: 20%;
 }
 .imgbeneficios{
     width: 50%;
