@@ -1,18 +1,31 @@
 body{
     background: darkslategray;
 }
+header{
+    background-image: url(banner2.jpg);
+    background-position: 100% center;
+    padding: 70px;
+}
 p{
     text-align: center;
 }
 .titulo-principal{
     padding-left: 30px;
     color: linen;
+    margin: 30px 30px;
+    text-align: center;
+    font-size: 50px;
 }
 .titulo-secundario{
     text-align: center;
+    font-size: 30px;
+    color: linen;
+    padding-bottom: 10px;
 }
 p#missao{
     font-size: 20px;
+    padding: 10px 0;
+    color: linen;
 }
 #banner{
     width: 100%;
@@ -21,21 +34,21 @@ p#missao{
     font-style: italic;
 }
 .beneficios{
-    background: dimgray;
-    padding: 20px;
+    background: url(beneficios.jpg);
+    padding: 80px;
+    background-size: 100%;
 
 }
 .principal{
-    background: lightslategrey;
+    background: rgb(26, 25, 25);
     padding: 30px;
 }
 ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 5%;
-    margin-left: 20%;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: linen;
 }
-.imgbeneficios{
-    width: 50%;
+.descricao{
+    color: linen;
 }
